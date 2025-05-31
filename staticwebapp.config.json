@@ -2,7 +2,9 @@
   "routes": [
     {
       "route": "/test.csv",
-      "requireAuthentication": true
+      "allowedRoles": [
+        "authenticated"
+      ]
     }
   ]
 }
