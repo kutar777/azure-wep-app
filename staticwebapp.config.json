@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "route": "/test.csv",
+      "route": "/api/download-csv",
       "requireAuthentication": true
     }
   ]
