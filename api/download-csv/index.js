@@ -13,7 +13,7 @@ module.exports = async function (context, req) {
   }
 
   // CSVファイルのパス
-  const csvPath = path.join(__dirname, '../../src/test.csv');
+  const csvPath = path.join(__dirname, '../../private/test.csv');
   if (!fs.existsSync(csvPath)) {
     context.res = {
       status: 404,
